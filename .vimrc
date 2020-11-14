@@ -8,4 +8,5 @@ set rnu
 set incsearch
 set hlsearch
 set ruler
+set backspace=indent,eol,start
 highlight Comment ctermfg=green
