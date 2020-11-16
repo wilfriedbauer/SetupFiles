@@ -9,6 +9,7 @@ set incsearch
 set hlsearch
 set ruler
 set ul=1000
+set history=1000
 set backspace=indent,eol,start
 highlight Comment ctermfg=green
 
