@@ -13,6 +13,8 @@ set history=1000
 set backspace=indent,eol,start
 highlight Comment ctermfg=green
 
+
+" ONLY ON WINDOWS IF NEEDED
 " Put plugins and dictionaries in this dir (also on Windows)
 let vimDir = '$HOME/.vim'
 let &runtimepath.=','.vimDir
