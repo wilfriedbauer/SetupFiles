@@ -1,15 +1,28 @@
-# If you come from bash you might have to change your $PATH.  # export PATH=$HOME/bin:/usr/local/bin:$PATH
+# If you come from bash you might have to change your $PATH.   
+export PATH=$HOME/bin:/usr/local/bin:$PATH
+
+# Which plugins would you like to load?
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git)
+
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/will/.oh-my-zsh"
 
+source $ZSH/oh-my-zsh.sh
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME=""
 
-PROMPT='%{$fg_bold[blue]%}[%T]%{$reset_color%}-${ret_status}%{$fg[magenta]%}[%n@%{$fg[red]%}%m]%{$reset_color%}-[%{$fg[cyan]%}%3~%{$reset_color%}] $ '
+PROMPT='%{$fg_bold[green]%}[%T]%{$reset_color%}-${ret_status}[%{$fg[blue]%}%n%{$reset_color%}@%{$fg[red]%}%m%{$reset_color%}]-[%{$fg[cyan]%}%3~%{$reset_color%}] $ '
+
+#enable vi mode
+bindkey -v
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -64,15 +77,6 @@ PROMPT='%{$fg_bold[blue]%}[%T]%{$reset_color%}-${ret_status}%{$fg[magenta]%}[%n@
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-# Which plugins would you like to load?
-# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
-
-source $ZSH/oh-my-zsh.sh
-
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -101,3 +105,4 @@ source $ZSH/oh-my-zsh.sh
 
 # added:
 export LC_ALL=en_US.UTF-8
+
