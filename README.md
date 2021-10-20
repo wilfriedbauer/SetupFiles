@@ -9,3 +9,6 @@ from bash:
   5. insert dotfiles in ~ 
   6. run source .zshrc
   7. glhf
+
+
+if you want clipboard support in wsl2, append the lines in the wslclipboard.vimrc file to your .vimrc.
