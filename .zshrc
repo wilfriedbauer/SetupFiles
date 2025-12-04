@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.   
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+if [ "$TMUX" = "" ]; then tmux; fi
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
@@ -102,6 +103,7 @@ bindkey -v
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias nv="nvim"
 
 # added:
 export LC_ALL=en_US.UTF-8
