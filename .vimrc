@@ -21,11 +21,10 @@ set ignorecase
 set smartcase
 set showmatch
 set ruler
-set undolevels=1000
+set undolevels=10000
+set history=10000
 set scrolloff=3
 set backspace=indent,eol,start
-set history=1000
-set backspace=indent,eol,start 
 set background=dark
 set wildmode=longest,list,full
 set wildmenu
