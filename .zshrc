@@ -104,7 +104,9 @@ bindkey -v
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias nv="nvim"
+alias v="nvim"
 
 # added:
 export LC_ALL=en_US.UTF-8
-
+export PATH=/Users/will/.local/bin:$PATH
+eval "$(starship init zsh)"
