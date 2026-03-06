@@ -105,6 +105,7 @@ bindkey -v
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias nv="nvim"
 alias v="nvim"
+alias n="nvim"
 alias c="zoxide"
 
 # added:
